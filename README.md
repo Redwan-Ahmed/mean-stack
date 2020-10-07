@@ -1,4 +1,8 @@
-# MeanCourse
+# Mean-Stack
+This application is built by using the following technologies: Angular, Node, Express and MongoDB. 
+
+The app has user authentication and authorisation, has CRUD operations and has file upload. The file upload has a validation class which only accepts image type files (multer class). 
+I've also used Jason Web Token (JWT) for user login sessions, so that they expire after the set time. I also used Bcrypt to encrypt user passwords. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.1.
 
