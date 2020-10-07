@@ -1,0 +1,38 @@
+mat-card{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+mat-form-field {
+  width: 90%;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+.mat-display-1 {
+  margin-top: 30px;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.already-user {
+  text-align: center;
+  margin-bottom: 13px;
+  font-size: 20px;
+}
+
+.already-user a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #116dff;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
