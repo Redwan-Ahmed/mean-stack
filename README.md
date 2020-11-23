@@ -12,7 +12,7 @@ This project is a blog page, which displays a feed with all the posts from diffe
 6. AWS (Amazon Web Service) - I learnt how to host/deploy the server side (Elastic Beanstalk) and the front end (S3).
 
 ## What technologies I Used?
-1. Angular
+1. Angular 7
 2. Node
 3. MongoDB
 4. Express
