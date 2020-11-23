@@ -1,31 +1,22 @@
-# Mean-Stack
-This application is built by using the following technologies: Angular, Node, Express and MongoDB. 
+## Blog - Mean Stack
 
-The app has user authentication and authorisation, has CRUD operations and has file upload. The file upload has a validation class which only accepts image type files (multer class). 
-I've also used Jason Web Token (JWT) for user login sessions, so that they expire after the set time. I also used Bcrypt to encrypt user passwords. 
+## What is this project?
+This project is a blog page, which displays a feed with all the posts from different users, which can be sorted by pagination. The application has user authentication and authorisation, Bcrypt was used to encrypt user passwords. The application allows users to create/update/delete their posts (CRUD). Each post has a file upload which has a validation class, which only accepts image type files. I created a multer class (server side) which checks the MIME type of a file and only accepts jpg/png/jpeg files. I used Jason Web Token (JWT) for user login sessions, so that they expire after the set time. The project was hosted on AWS, the server side was deployed on Elastic Beanstalk and the front end was deployed on S3.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.1.
+## What I learnt?
+1. Node - learnt its core functions, I understand how file requests work and I learnt how to connect Node with MongoDB. I used mongoose to create new schemas and collections.
+2. Express - learnt how to handle request and routes, I used middleware to check user authorisation and file upload.
+3. File validation - When uploading a file I learnt how to check a MIME type of a file, then validate the files by setting file types which are valid, e.g. JPEG.
+4. JWT - I was able to learn how to create JWT sessions and set the timer so when the JWT expires the user will automatically be logged out.
+5. Bcrypt - encrypt user passwords.
+6. AWS (Amazon Web Service) - I learnt how to host/deploy the server side (Elastic Beanstalk) and the front end (S3).
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## What technologies I Used?
+1. Angular
+2. Node
+3. MongoDB
+4. Express
+5. Bcrypt
+6. JWT
+7. Mongoose
+8. AWS
