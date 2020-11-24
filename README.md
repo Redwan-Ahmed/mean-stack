@@ -1,5 +1,4 @@
 ## Blog - Mean Stack
-
 [Demo](http://redwan-mean-stack.s3-website.eu-west-2.amazonaws.com/ "Live Demo")
 
 ## What is this project?
