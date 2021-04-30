@@ -1,5 +1,5 @@
 # Blog - Mean Stack
-[Demo](http://redwan-mean-stack.s3-website.eu-west-2.amazonaws.com/ "Live Demo")
+[Demo](http://redwan-mean-stack.s3-website.eu-west-2.amazonaws.com/ "Live Demo") Due to the new updates on AWS my demo no longer runs as it did previously 😞, maybe in the near future I may have time to update my Elastic Beanstalk & S3 buckets. 
 
 ## What is this project? 🤔
 * This project is a blog page, which displays a feed with all the posts from different users, which can be sorted by pagination. The application has user authentication and authorisation, Bcrypt was used to encrypt user passwords. The application allows users to create/update/delete their posts (CRUD). Each post has a file upload which has a validation class, which only accepts image type files. I created a multer class (server side) which checks the MIME type of a file and only accepts jpg/png/jpeg files. I used Jason Web Token (JWT) for user login sessions, so that they expire after the set time. The project was hosted on AWS, the server side was deployed on Elastic Beanstalk and the front end was deployed on S3.
