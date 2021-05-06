@@ -1,4 +1,4 @@
-# Blog - Mean Stack
+# Blog - MEAN Stack
 Due to the new updates on AWS my demo no longer runs as it did previously 😞, maybe in the near future I may have time to update my Elastic Beanstalk & S3 buckets. 
 
 ## What is this project? 🤔
